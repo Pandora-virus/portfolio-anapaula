@@ -1,0 +1,42 @@
+:root {
+  /* superfícies */
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --surface-sunken: #f1ece2;
+
+  /* texto */
+  --ink: #221c2e;
+  --ink-soft: #5b5468;
+  --label: #8a8296;
+
+  /* bordas */
+  --border: #e6ded0;
+  --border-strong: #d8cdb8;
+
+  /* acento primário — terracota */
+  --accent: #c9562e;
+  --accent-ink: #9c411f;
+  --accent-soft: #f3dccb;
+
+  /* acento secundário — verde-petróleo */
+  --accent-2: #1f6f68;
+  --accent-2-soft: #d9ede9;
+
+  /* estado */
+  --success: #2a7568;
+  --warning: #816805;
+
+  /* tipografia */
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* raio */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* sombra */
+  --shadow-card: 0 1px 0 var(--border-strong), 0 12px 24px -16px rgba(34, 28, 46, 0.25);
+
+  --max-width: 1120px;
+}

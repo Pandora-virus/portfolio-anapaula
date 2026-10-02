@@ -1,0 +1,20 @@
+.page {
+  padding: 72px 0 96px;
+}
+
+.head {
+  margin-bottom: 48px;
+  max-width: 60ch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

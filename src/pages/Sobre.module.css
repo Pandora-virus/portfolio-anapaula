@@ -29,6 +29,38 @@
   color: var(--ink-soft);
 }
 
+.skills {
+  display: grid;
+  gap: 28px;
+}
+
+.skillGroup h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.skillGroup ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.skillGroup li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.contactActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
 @media (max-width: 760px) {
   .grid {
     grid-template-columns: 1fr;

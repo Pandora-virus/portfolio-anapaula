@@ -77,8 +77,8 @@ export default function ProjetoRaizCafe() {
           <Link to="/projetos/pontua" className="btn btn--ghost">
             ← Pontua
           </Link>
-          <Link to="/projetos" className="btn btn--ghost">
-            Todos os projetos
+          <Link to="/projetos/automacao-aefetiva" className="btn btn--ghost">
+            Automação de processos →
           </Link>
         </div>
       </div>

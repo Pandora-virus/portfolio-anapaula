@@ -182,11 +182,11 @@ export default function ProjetoPontua() {
         </Section>
 
         <div className={styles.footerNav}>
-          <Link to="/projetos/raiz-cafe" className="btn btn--ghost">
-            ← Raiz Café
-          </Link>
           <Link to="/projetos" className="btn btn--ghost">
-            Todos os projetos
+            ← Todos os projetos
+          </Link>
+          <Link to="/projetos/raiz-cafe" className="btn btn--ghost">
+            Raiz Café →
           </Link>
         </div>
       </div>

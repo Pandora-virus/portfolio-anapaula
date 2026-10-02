@@ -6,6 +6,8 @@ import Projetos from './pages/Projetos.jsx'
 import Sobre from './pages/Sobre.jsx'
 import ProjetoPontua from './pages/ProjetoPontua.jsx'
 import ProjetoRaizCafe from './pages/ProjetoRaizCafe.jsx'
+import ProjetoAutomacaoAefetiva from './pages/ProjetoAutomacaoAefetiva.jsx'
+import ProjetoSuporteTecnico from './pages/ProjetoSuporteTecnico.jsx'
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
           <Route path="/projetos" element={<Projetos />} />
           <Route path="/projetos/pontua" element={<ProjetoPontua />} />
           <Route path="/projetos/raiz-cafe" element={<ProjetoRaizCafe />} />
+          <Route path="/projetos/automacao-aefetiva" element={<ProjetoAutomacaoAefetiva />} />
+          <Route path="/projetos/suporte-tecnico" element={<ProjetoSuporteTecnico />} />
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </main>

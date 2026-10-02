@@ -10,16 +10,17 @@ export default function Home() {
         <div className="wrap">
           <div className={styles.heroGrid}>
             <div>
-              <p className="eyebrow">Product design · Desenvolvimento full stack</p>
+              <p className="eyebrow">Tecnologia · Processos · Experiência do cliente</p>
               <h1>
-                Oi, eu sou a Ana Paula. Transformo <em>problema real</em> em produto que
-                funciona — do discovery ao código.
+                Oi, eu sou a Ana Paula Dossi. Conecto tecnologia, processos e experiência
+                do cliente pra resolver <em>problema real</em>.
               </h1>
               <p className={styles.heroLead}>
-                Projeto, pesquiso e construo produtos digitais de ponta a ponta. Aqui estão
-                dois exemplos: o Pontua, um assistente de ateliê pra artesãs de crochê que
-                levei de ideia a sistema em produção, e o Raiz Café, um e-commerce feito em
-                bootcamp pra tirar um negócio familiar do papel.
+                Gosto de entender problemas, organizar processos e encontrar formas de
+                tornar o trabalho mais simples — seja com automação, código ou uma
+                experiência melhor pra quem usa um produto. Minha trajetória passa por
+                suporte técnico, operações e relacionamento com clientes; hoje também
+                projeto e desenvolvo soluções digitais, como o Pontua.
               </p>
               <div className={styles.heroActions}>
                 <Link to="/projetos" className="btn btn--primary">
@@ -47,24 +48,24 @@ export default function Home() {
         <div className="wrap">
           <div className={styles.sectionHead}>
             <div>
-              <p className="eyebrow">O que eu faço</p>
-              <h2>Design e código, na mesma pessoa</h2>
+              <p className="eyebrow">Como eu trabalho</p>
+              <h2>Da ideia à solução</h2>
             </div>
           </div>
           <div className={styles.focusGrid}>
             <div className={styles.focusCard}>
-              <h3>Design</h3>
+              <h3>Entender antes de fazer</h3>
               <p>
-                Pesquisa com usuárias, discovery, personas, fluxos de UX e design system —
-                tokens de cor, tipografia e componentes documentados, não só telas soltas.
+                Antes de pensar em uma solução, gosto de entender o problema, para quem
+                estou construindo e o que realmente precisa ser resolvido.
               </p>
             </div>
             <div className={styles.focusCard}>
-              <h3>Código</h3>
+              <h3>Fazer acontecer</h3>
               <p>
-                Front-end em React e back-end em Node/Express com banco relacional —
-                suficiente pra sair do protótipo e virar produto que uma pessoa usa de
-                verdade todos os dias.
+                Com o problema mais claro, exploro possibilidades e uso tecnologia para
+                transformar ideias em soluções práticas, sejam aplicações, automações ou
+                melhorias em processos.
               </p>
             </div>
           </div>
@@ -76,7 +77,7 @@ export default function Home() {
           <div className={styles.sectionHead}>
             <div>
               <p className="eyebrow">Projetos</p>
-              <h2>O que eu já construí</h2>
+              <h2>Algumas coisas que tirei do papel</h2>
             </div>
             <Link to="/projetos" className="btn btn--ghost">
               Ver todos
